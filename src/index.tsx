@@ -17,6 +17,6 @@ const NatanaelvichCamera = NativeModules.NatanaelvichCamera
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return NatanaelvichCamera.multiply(a, b);
+export function openPickerImage(): Promise<void> {
+  return NatanaelvichCamera.openPickerImage();
 }
